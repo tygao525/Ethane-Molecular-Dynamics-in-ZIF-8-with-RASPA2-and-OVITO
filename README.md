@@ -4,8 +4,6 @@ This repository documents an exercise: choosing a molecular loading from GCMC, r
 
 **This is a preliminary learning example; diffusion coefficients and quantitative validation against the literature have not been completed.**
 
-![OVITO workflow](ovito_workflow.png)
-
 [View or download the animation](ethane_in_zif8.mp4)
 
 ## 1. Software and files
