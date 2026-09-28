@@ -1,0 +1,30 @@
+SimulationType                MolecularDynamics
+NumberOfInitializationCycles  5000
+NumberOfEquilibrationCycles   10000
+NumberOfCycles                20000
+PrintEvery                    1000
+RestartFile                   no
+
+Ensemble                      NVT
+TimeStep                      0.0005
+
+Forcefield                    Local
+RemoveAtomNumberCodeFromLabel no
+CutOffVDW                     12.0
+ChargeMethod                  Ewald
+EwaldPrecision                1e-6
+
+Framework 0
+FrameworkName                 ZIF_08
+UnitCells                     2 2 2
+ExternalTemperature           303.0
+
+Movies                        yes
+WriteMoviesEvery               100
+
+Component 0 MoleculeName       ethane
+            MoleculeDefinition       Local
+            TranslationProbability   0.5
+            RotationProbability      0.5
+            ReinsertionProbability   0.5
+            CreateNumberOfMolecules  45
